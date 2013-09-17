@@ -33,6 +33,8 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 
 TARGET_RECOVERY_PRE_COMMAND := "/system/bin/setup-recovery"
 
+# Celluar is broken when building with 4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_x3_defconfig
 # Keep this as a fallback
