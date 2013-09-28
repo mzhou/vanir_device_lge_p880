@@ -50,25 +50,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/touch_dev.kl:system/usr/keylayout/touch_dev.kl \
     $(LOCAL_PATH)/configs/touch_dev.idc:system/usr/idc/touch_dev.idc
 
-# QuickMemo
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/pulled/com.lge.app.floating.xml:system/etc/permissions/com.lge.app.floating.xml \
-    $(LOCAL_PATH)/pulled/com.lge.app.floating.res.apk:system/framework/com.lge.app.floating.res.apk \
-    $(LOCAL_PATH)/pulled/QMemobin.apk:system/app/QMemobin.apk
-
-# Hidden Menu
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/pulled/com.lge.core.jar:system/framework/com.lge.core.jar \
-    $(LOCAL_PATH)/pulled/com.lge.core.xml:system/etc/permissions/com.lge.core.xml \
-    $(LOCAL_PATH)/pulled/com.lge.fota.jar:system/framework/com.lge.fota.jar \
-    $(LOCAL_PATH)/pulled/com.lge.fota.xml:system/etc/permissions/com.lge.fota.xml \
-    $(LOCAL_PATH)/pulled/com.lge.nfcaddon.jar:system/framework/com.lge.nfcaddon.jar \
-    $(LOCAL_PATH)/pulled/com.lge.nfcaddon.xml:system/etc/permissions/com.lge.nfcaddon.xml \
-    $(LOCAL_PATH)/pulled/com.lge.systemservice.core.jar:system/framework/com.lge.systemservice.core.jar \
-    $(LOCAL_PATH)/pulled/com.lge.systemservice.core.xml:system/etc/permissions/com.lge.systemservice.core.xml \
-    $(LOCAL_PATH)/pulled/GnssPosTs.apk:system/app/GnssPosTs.apk \
-    $(LOCAL_PATH)/pulled/HiddenMenu.apk:system/app/HiddenMenu.apk
-
 # Modified RIL from rmcc
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/pulled/lge-ril.so:system/lib/lge-ril.so
