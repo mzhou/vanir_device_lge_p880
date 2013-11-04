@@ -175,9 +175,9 @@
         <item>255</item>
     </integer-array>
 
-    <integer name="config_deviceHardwareKeys">7</integer>
+    <!--<integer name="config_deviceHardwareKeys">7</integer>-->
 
     <bool name="config_intrusiveNotificationLed">true</bool>
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!--<bool name="config_intrusiveBatteryLed">true</bool>-->
 
 </resources>
